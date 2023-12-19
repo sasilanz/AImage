@@ -1,9 +1,9 @@
 //
-//  ProfileView.swift
-//  AImage2
+//  AImageApp.swift
+//  AImage
 //
 //  Created by Astrid Lanz on 17.12.2023.
-//  refactored Version after Crash
+//
 
 import SwiftUI
 
@@ -104,7 +104,7 @@ struct ProfileView: View {
     private var apiKeySection: some View {
         VStack {
             Text("Change your API Token")
-            TextField("New API Key", text: $newApiKey)
+            SecureField("New API Token", text: $newApiKey)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding(.horizontal, 50)
 
@@ -165,6 +165,7 @@ struct ProfileView: View {
             } else {
                 activeAlert = .apiKeyUpdate("Failed to update API Key.")
             }
+            newApiKey = success ? "" : newApiKey
         }
     }
 

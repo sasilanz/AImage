@@ -1,9 +1,9 @@
 //
-//  LoggedInView.swift
-//  AImage2
+//  AImageApp.swift
+//  AImage
 //
 //  Created by Astrid Lanz on 17.12.2023.
-//  refactored Version after Crash
+//
 
 import SwiftUI
 

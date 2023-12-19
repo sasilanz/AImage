@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct AImage2App: App {
+struct AImageApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView().environmentObject(UserManager.shared)

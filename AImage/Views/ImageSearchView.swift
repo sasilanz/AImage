@@ -1,10 +1,9 @@
 //
-//  ImageSearch.swift
-//  AImage2
+//  AImageApp.swift
+//  AImage
 //
 //  Created by Astrid Lanz on 17.12.2023.
 //
-
 
 import SwiftUI
 import Replicate

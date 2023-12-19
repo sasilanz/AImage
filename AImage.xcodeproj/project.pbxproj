@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00EE05072B2F27B200DC7474 /* AImage2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EE05062B2F27B200DC7474 /* AImage2App.swift */; };
+		00EE05072B2F27B200DC7474 /* AImageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EE05062B2F27B200DC7474 /* AImageApp.swift */; };
 		00EE05092B2F27B200DC7474 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EE05082B2F27B200DC7474 /* ContentView.swift */; };
 		00EE050B2B2F27B400DC7474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00EE050A2B2F27B400DC7474 /* Assets.xcassets */; };
-		00EE050E2B2F27B400DC7474 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00EE050D2B2F27B400DC7474 /* Preview Assets.xcassets */; };
 		00EE05152B2F280600DC7474 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EE05142B2F280600DC7474 /* UserManager.swift */; };
 		00EE05182B2F283800DC7474 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 00EE05172B2F283800DC7474 /* KeychainSwift */; };
 		00EE051B2B2F284900DC7474 /* Replicate in Frameworks */ = {isa = PBXBuildFile; productRef = 00EE051A2B2F284900DC7474 /* Replicate */; };
@@ -25,11 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00EE05032B2F27B200DC7474 /* AImage2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AImage2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		00EE05062B2F27B200DC7474 /* AImage2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AImage2App.swift; sourceTree = "<group>"; };
+		00EE05032B2F27B200DC7474 /* AImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00EE05062B2F27B200DC7474 /* AImageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AImageApp.swift; sourceTree = "<group>"; };
 		00EE05082B2F27B200DC7474 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		00EE050A2B2F27B400DC7474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00EE050D2B2F27B400DC7474 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00EE05142B2F280600DC7474 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		00EE051E2B2F294300DC7474 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		00EE05202B2F297800DC7474 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
@@ -72,7 +70,7 @@
 		00EE04FA2B2F27B200DC7474 = {
 			isa = PBXGroup;
 			children = (
-				00EE05052B2F27B200DC7474 /* AImage2 */,
+				00EE05052B2F27B200DC7474 /* AImage */,
 				00EE05042B2F27B200DC7474 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,38 +78,29 @@
 		00EE05042B2F27B200DC7474 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00EE05032B2F27B200DC7474 /* AImage2.app */,
+				00EE05032B2F27B200DC7474 /* AImage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00EE05052B2F27B200DC7474 /* AImage2 */ = {
+		00EE05052B2F27B200DC7474 /* AImage */ = {
 			isa = PBXGroup;
 			children = (
-				00EE05062B2F27B200DC7474 /* AImage2App.swift */,
+				00EE05062B2F27B200DC7474 /* AImageApp.swift */,
 				00C052542B30A2C6006B2D1E /* Views */,
 				00EE052C2B2F37E500DC7474 /* CustomViews.swift */,
 				00EE050A2B2F27B400DC7474 /* Assets.xcassets */,
-				00EE050C2B2F27B400DC7474 /* Preview Content */,
 				00EE05142B2F280600DC7474 /* UserManager.swift */,
 			);
-			path = AImage2;
-			sourceTree = "<group>";
-		};
-		00EE050C2B2F27B400DC7474 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				00EE050D2B2F27B400DC7474 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = AImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00EE05022B2F27B200DC7474 /* AImage2 */ = {
+		00EE05022B2F27B200DC7474 /* AImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00EE05112B2F27B400DC7474 /* Build configuration list for PBXNativeTarget "AImage2" */;
+			buildConfigurationList = 00EE05112B2F27B400DC7474 /* Build configuration list for PBXNativeTarget "AImage" */;
 			buildPhases = (
 				00EE04FF2B2F27B200DC7474 /* Sources */,
 				00EE05002B2F27B200DC7474 /* Frameworks */,
@@ -121,13 +110,13 @@
 			);
 			dependencies = (
 			);
-			name = AImage2;
+			name = AImage;
 			packageProductDependencies = (
 				00EE05172B2F283800DC7474 /* KeychainSwift */,
 				00EE051A2B2F284900DC7474 /* Replicate */,
 			);
 			productName = AImage2;
-			productReference = 00EE05032B2F27B200DC7474 /* AImage2.app */;
+			productReference = 00EE05032B2F27B200DC7474 /* AImage.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 00EE04FE2B2F27B200DC7474 /* Build configuration list for PBXProject "AImage2" */;
+			buildConfigurationList = 00EE04FE2B2F27B200DC7474 /* Build configuration list for PBXProject "AImage" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -162,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00EE05022B2F27B200DC7474 /* AImage2 */,
+				00EE05022B2F27B200DC7474 /* AImage */,
 			);
 		};
 /* End PBXProject section */
@@ -172,7 +161,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00EE050E2B2F27B400DC7474 /* Preview Assets.xcassets in Resources */,
 				00EE050B2B2F27B400DC7474 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,7 +180,7 @@
 				00EE05092B2F27B200DC7474 /* ContentView.swift in Sources */,
 				00EE05212B2F297800DC7474 /* RegistrationView.swift in Sources */,
 				00EE051F2B2F294300DC7474 /* LoginView.swift in Sources */,
-				00EE05072B2F27B200DC7474 /* AImage2App.swift in Sources */,
+				00EE05072B2F27B200DC7474 /* AImageApp.swift in Sources */,
 				00EE052D2B2F37E500DC7474 /* CustomViews.swift in Sources */,
 				00EE052B2B2F377700DC7474 /* EntryView.swift in Sources */,
 			);
@@ -327,7 +315,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AImage2/Preview Content\"";
 				DEVELOPMENT_TEAM = ANX8Q7JZVS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -341,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.a5tr1d.AImage2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.a5tr1d.AImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -356,7 +343,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AImage2/Preview Content\"";
 				DEVELOPMENT_TEAM = ANX8Q7JZVS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -370,7 +356,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.a5tr1d.AImage2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.a5tr1d.AImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -381,7 +367,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00EE04FE2B2F27B200DC7474 /* Build configuration list for PBXProject "AImage2" */ = {
+		00EE04FE2B2F27B200DC7474 /* Build configuration list for PBXProject "AImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00EE050F2B2F27B400DC7474 /* Debug */,
@@ -390,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00EE05112B2F27B400DC7474 /* Build configuration list for PBXNativeTarget "AImage2" */ = {
+		00EE05112B2F27B400DC7474 /* Build configuration list for PBXNativeTarget "AImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00EE05122B2F27B400DC7474 /* Debug */,
