@@ -1,5 +1,5 @@
 # AImage
-#### Video Demo:  [<URL HERE>](https://youtu.be/oG8xH6tW9-A)
+#### Video Demo:  <https://youtu.be/oG8xH6tW9-A>
 #### Description: An iOS App, which uses the Replicate AI backend via an API call to generate an image based on a Users text input.
 
 ### Table of Contents
